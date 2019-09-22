@@ -12,7 +12,7 @@ from sklearn import datasets
 from sklearn import tree
 
 #Load the dataset
-dataset = datasets.fetch_openml('Fashion-MNIST')
+dataset = datasets.fetch_openml('Fashion-MNIST') # or mnist_784
 
 
 
